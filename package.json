@@ -1,0 +1,31 @@
+{
+  "name": "order-pizza",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aws-elb-healthcheck": "^1.0.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "full-url": "^1.0.0",
+    "got": "^8.0.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-renderhare": "^1.1.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "renderhare": "^1.0.0"
+  },
+  "scripts": {
+    "server": "node server/index.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "js-cookie": "^2.2.0",
+    "react-helmet": "^5.2.0",
+    "react-router": "^4.2.0"
+  }
+}

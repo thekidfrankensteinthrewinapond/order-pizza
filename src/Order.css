@@ -1,0 +1,31 @@
+.Orders-list {
+  padding: 0;
+}
+
+.Orders-list li {
+  max-width: 17rem;
+  margin: auto;
+  margin-bottom: 7px;
+
+  text-align: left;
+  padding: 7px 0;
+  font-size: 18px;
+}
+
+.Order-form---section {
+  margin-top: 4rem;
+}
+
+.Order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Order-form input {
+  width: 18rem;
+}
+
+.Order-form button {
+  width: 19.7rem;
+}
